@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+  db:
+    container_name: alibou_jwt_security
+    image: "postgres:12-alpine3.18"
+    environment:
+      POSTGRES_USER: developer
+      POSTGRES_PASSWORD: developer
+      POSTGRES_DB: alibou_jwt_security_db
+    volumes:
+      - ./docker/postgresql/volumes/data:/var/lib/postgresql/data
+    networks:
+      - backend
+    ports:
+      - "5432:5432"
+networks:
+  backend:
