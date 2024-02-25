@@ -4,7 +4,7 @@ import com.agun.security.dto.AuthenticationResponse;
 import com.agun.security.dto.DefaultResponse;
 import com.agun.security.dto.LoginRequest;
 import com.agun.security.dto.RegisterRequest;
-import com.agun.security.enums.Role;
+import com.agun.security.constant.Role;
 import com.agun.security.model.User;
 import com.agun.security.repository.UserRepository;
 import com.agun.security.security.TokenManager;

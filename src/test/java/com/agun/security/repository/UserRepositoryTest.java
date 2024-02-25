@@ -1,6 +1,6 @@
 package com.agun.security.repository;
 
-import com.agun.security.enums.Role;
+import com.agun.security.constant.Role;
 import com.agun.security.model.User;
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.BeforeEach;

@@ -12,6 +12,6 @@ public class UserController {
     @GetMapping
     public ResponseEntity<String> getDataUser() {
         return ResponseEntity.ok()
-                .body("Hello World!");
+                .body("Access Granted");
     }
 }

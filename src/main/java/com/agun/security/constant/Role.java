@@ -1,4 +1,4 @@
-package com.agun.security.enums;
+package com.agun.security.constant;
 
 public enum Role {
     USER,

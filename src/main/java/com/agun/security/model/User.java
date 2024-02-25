@@ -1,6 +1,6 @@
 package com.agun.security.model;
 
-import com.agun.security.enums.Role;
+import com.agun.security.constant.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
